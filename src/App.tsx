@@ -45,21 +45,22 @@ function App() {
 
   const projects = [
     {
-      title: "Airport Luggage Management System",
-      subtitle: "Internship Project (Pega)",
-      description: "Developed a comprehensive workflow management system focusing on luggage check-in, payment processing, and missing luggage management. Improved process efficiency and reduced manual errors through automation and streamlined workflows. Enhanced user experience for passengers and airport staff by implementing intuitive interfaces and efficient processes.",
-      github: null,
-      live: null,
-      tags: ["Pega", "Workflow Automation", "UAT"],
-    },
-    {
-      title: "E-commerce Application (Myntra Clone)",
+      title: "E-Myntra",
       subtitle: "Frontend Web Application",
       description: "Created a functional e-commerce clone using React and Redux, integrating a fake store API for dynamic product display. Implemented state management for shopping cart functionality and integrated Razorpay for payment processing. Ensured a responsive and user-friendly interface.",
       github: ecommerceGithubRepo,
       live: ecommerceLiveUrl,
       tags: ["React", "Redux", "JavaScript", "API Integration", "Razorpay", "CSS"],
     },
+    {
+      title: "Guess The Number ",
+      subtitle: "Frontend Web Application",
+      description: "A simple game where user has to guess the number between 1 to 20. It uses HTML, CSS and Javascript to build the game.",
+      github: "https://github.com/pavankalyanvaddadhi/GuessTheNumber.git",
+      live: "https://guess-the-number-git-main-pavankalyanvaddadhis-projects.vercel.app/",
+      tags: ["Java Script", "Css", "Html"],
+    }
+    
   ];
 
   const education = [
